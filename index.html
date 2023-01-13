@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h2>Calculator Andersen - Raman Butsko</h2>
+      </header>
+      <section class="interface">
+        <input type="text" class="interface_current" value="0" readonly />
+      </section>
+      <button class="ac method" action="AC">AC</button>
+      <button class="delete method" action="c">
+        <img src="./icon/delete-left-solid.svg" alt="delete" />
+      </button>
+      <button class="plmin method" action="∓">∓</button>
+      <button class="operator divide method" action="÷">÷</button>
+
+      <button class="number" action="7">7</button>
+      <button class="number" action="8">8</button>
+      <button class="number" action="9">9</button>
+      <button class="operator method" action="x">x</button>
+
+      <button class="number" action="4">4</button>
+      <button class="number" action="5">5</button>
+      <button class="number" action="6">6</button>
+      <button class="operator method" action="-">-</button>
+
+      <button class="number" action="1">1</button>
+      <button class="number" action="2">2</button>
+      <button class="number" action="3">3</button>
+      <button class="operator method" action="+">+</button>
+
+      <button class="operator method" action="%">%</button>
+      <button class="number" action="0">0</button>
+      <button class="number" action=".">.</button>
+      <button class="equal" action="=">=</button>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
