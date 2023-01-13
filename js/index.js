@@ -51,19 +51,19 @@ buttons.forEach((btn) => {
 
 
 function plus(firstNum, secondNum) {
-    return roundNum((((firstNum + secondNum) * 100) / 100), 8);
+    return roundNum((firstNum + secondNum), 8);
 }
 
 function minus(firstNum, secondNum) {
-    return roundNum((((firstNum - secondNum) * 100) / 100), 8);
+    return roundNum((firstNum - secondNum), 8);
 }
 
 function multiply(firstNum, secondNum) {
-    return roundNum(((firstNum * secondNum * 100) / 100), 8);
+    return roundNum((firstNum * secondNum), 8);
 }
 
 function divide(firstNum, secondNum) {
-    return secondNum != 0 ? roundNum(((firstNum / secondNum * 100) / 100), 8) : 'Not a number';
+    return secondNum != 0 ? roundNum((firstNum / secondNum), 8) : 'Not a number';
 }
 
 
